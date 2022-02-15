@@ -1,5 +1,3 @@
-import react from "react";
-
 // Styles
 import { Image } from './Thumb.styles';
 
