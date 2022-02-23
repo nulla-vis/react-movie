@@ -1,4 +1,5 @@
-import react from "react";
+import React from "react";
+import PropTypes from "prop-types";
 //Config
 import { IMAGE_BASE_URL, POSTER_SIZE } from "../../config";
 // Components
@@ -36,5 +37,9 @@ const MovieInfo = ({ movie }) => (
         </Content>
     </Wrapper>
 )
+
+MovieInfo.prototype = {
+    movie: PropTypes.object
+}
 
 export default MovieInfo;
